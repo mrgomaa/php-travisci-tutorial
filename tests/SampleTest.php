@@ -6,6 +6,6 @@ Class SampleTest extends PHPUnit_Framework_TestCase
      */
     public function This_is_sample_test()
     {
-        $this->assertTrue(TRUE);
+        $this->assertTrue(FALSE);
     }
 }
