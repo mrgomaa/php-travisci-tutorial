@@ -1,15 +1,17 @@
 # php-travisci-tutorial
-travisci 간단 테스트
+[Travis Ci](https://travis-ci.org/richellin/php-travisci-tutorial/jobs/124366674)
 
-`php
+```php
+#Clone
 git clone https://github.com/richellin/php-travisci-tutorial.git
 
+#Install
 composer install
 
+#Test Build
 vendor/bin/phpunit --tap tests
-`
+```
 
-### Link
-[Travis Ci](https://travis-ci.com/)
+
 
 
